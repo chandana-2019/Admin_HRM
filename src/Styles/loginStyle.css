@@ -1,0 +1,22 @@
+.loginImg{
+    width: 100%;
+    height: 100%;
+}
+.loginForm{
+    margin-top: 20%;
+}
+.forgetPass{
+    text-decoration: underline;
+    cursor: pointer;
+}
+input::placeholder{
+    opacity: 0.5;
+  font-size: 17.3px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #4d4f5c;
+  
+}

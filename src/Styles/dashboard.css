@@ -1,0 +1,130 @@
+.countDiv{
+    padding:10px;
+    box-shadow: 0 0 4px 0 #00000029;
+    background-color: ffffff;
+    margin-bottom: 10px;
+}
+.widthContainer{
+    width: 100%;
+    
+}
+
+.badge-pill{
+    padding-right: 5px  !important;
+    padding-left: 5px !important;
+    border-radius: 10rem;
+    margin-left: 1px;
+}
+.monthYr{
+    font-size: 17.3px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #403c4f;
+}
+.totalCount{
+    font-size: 20.7px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #403c4f;
+   
+}
+.totalHeading{
+    font-size: 14.4px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #403c4f;
+}
+
+.variation{
+    white-space: nowrap;
+    font-size: 1rem;
+    font-weight: 550;
+}
+
+.graphHeading{
+    font-size: 20.7px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #403c4f;
+   margin-top: 10px;
+    
+}
+
+.manPowerGraphDiv,.salaryGraphDiv,.ageChartDiv,.religionChartDiv,.genderChartDiv,.locationChartDiv{
+    border-radius: 6px;
+    box-shadow: 0 0 8px 0 #00000029;
+    background-color: #ffffff;
+    
+}
+
+@media screen and (min-width: 769px) {
+.manPowerGraphDiv,.salaryGraphDiv{
+    max-width: 48%;
+}
+.ageChartDiv,.religionChartDiv,.genderChartDiv,.locationChartDiv{
+    max-width: 23.5%;
+
+}
+.ageChartDiv{
+    margin-left: 15px;
+    margin-right: 17px;
+}
+.genderChartDiv{
+    margin-left: 20px;
+    margin-right: 22px;
+}
+}
+.salaryOption{
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #403c4f;
+    margin-bottom: -7px;
+    
+}
+
+.salaryGraph,.manpowerChart
+{
+    overflow-x: auto;
+    overflow-y: hidden;
+    
+}
+.modalBtn{
+    width: 149px;
+    height: 40px;
+    background-color: #0d47a1;
+    color: white;
+
+}
+
+.alert{
+    margin-top: 50px;
+    padding: 15px;
+}
+.col-12{
+    padding-right: 0 !important;
+}
+.modalLingment{
+    margin: 5px;
+}
+

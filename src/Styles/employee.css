@@ -1,0 +1,127 @@
+
+.headingEmploye{
+    color: black;
+    font-size:1.2rem;
+    font-weight: 600;
+}
+.clear{
+    font-size: 14.4px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.39;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #0d47a1;
+    cursor: pointer;
+}
+.emp_prof_btn_click{
+
+      font-size: 20.7px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: 0px;
+      text-align: left;
+      color: #403c4f;
+}
+.emp_sideLeft{
+    border-radius: 6px;
+    box-shadow: 0 0 1px 0 #00000029;
+    background-color: #ffffff;
+
+}
+.empDetailsDiv1,.empDetailsDiv3{
+    font-size: .75rem;
+    color: black;
+   
+}
+.empDetailsDiv2{
+    font-size: .7rem;
+    color: #3d3d44;
+}
+
+.each_form_group{
+   margin-bottom:-0px !important;
+   padding:0 0 0 0 !important;
+   word-wrap: break-word;
+}
+
+.empDiv1,.empDiv3,.empDiv5,.empDiv7,.empDiv9{
+  
+   background-color: #eff2f3;
+
+}
+
+
+.empName{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: -10px;
+    color: #20143f;
+}
+.emp_sideRightBtns,.sideRightHeaders{
+    margin-bottom: 8px;
+}
+.checkBoxes{
+    margin-left: 10px;
+    margin-bottom: 8px;
+}
+.sidebarHeading{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #0a3320;
+}
+
+.empNameTable{
+    color: blue !important;
+    text-decoration: underline !important;
+    cursor: pointer;
+}
+
+.userPicEmploye{
+    width: 90%;
+    height: 100%;
+}
+
+.ReactModal__Content{
+    height: 60% !important;
+    margin-top: 5%;
+}
+
+.checkBoxHeader{
+  font-size: 17.3px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #403c4f;
+  background-color:#ffffff !important;
+  box-shadow: 0 3px 6px 0 #00000029;
+  cursor: pointer;
+  height: 48px !important;
+  
+}
+.custom-control-label{
+  font-size: 14.4px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.39;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #403c4f;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  
+}
+
+.card{
+    border-radius: 4px;
+    box-shadow: 0 3px 6px 0 #00000029;
+    margin-bottom: 3%;
+    
+}

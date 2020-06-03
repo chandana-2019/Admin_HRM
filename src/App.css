@@ -1,0 +1,937 @@
+::-webkit-scrollbar {
+  width: 14px !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e9ebf7 !important;
+  box-shadow: 0 3px 6px 0 #00000029;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #4e7fcc !important;
+}
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+  background: orange !important; 
+} */
+
+
+
+
+
+
+
+
+
+
+input[type="checkbox"]:checked+label::after {
+  background-color: #fbbd05;
+}
+
+
+
+.shadow-lg {
+  box-shadow: 0 3px 6px 0 #00000029 !important;
+  background-color: #ffffff !important;
+}
+
+.btn {
+  font-size: 14.4px;
+  margin: 6px !important;
+  box-shadow: 0 3px 6px 0 #00000029 !important;
+  cursor: pointer;
+  text-align: left;
+}
+
+.statusBTN {
+  width: 149px !important;
+  height: 40px !important;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.39;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #0d47a1;
+}
+
+.form-control {
+  margin: 0px
+}
+
+.nav-link.active {
+  border-bottom: 4px solid #0d47a1;
+
+}
+
+.nav-link {
+  font-size: 14.4px;
+  font-weight: 500;
+  font: medium;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #403c4f;
+}
+
+.fa-search {
+  width: 22px;
+  height: 22px;
+  color: #080808;
+}
+
+.fa-cog {
+  width: 25.6px;
+  height: 25.6px;
+  color: #080808;
+}
+
+.fa-bell {
+  width: 19.1px;
+  height: 25.3px;
+  color: #080808;
+}
+
+.loaderCLass {
+  margin-left: 70%;
+  margin-top: 15%;
+
+}
+
+.loaderCLassForGraph {
+  margin-left: 47%;
+  margin-top: 10%;
+}
+
+.cssHeadingClass {
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+
+
+label {
+  color: black;
+  font-size: 1rem;
+  font-weight: 520;
+  margin-bottom: 0px;
+}
+
+table.table-bordered>tbody>tr>td {
+  background-color: #fcfbfe;
+  white-space: nowrap;
+  font-size: 14.4px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #403c4f;
+
+}
+
+table.table-bordered>thead>tr>th {
+  box-shadow: 0 0 4px 0 #00000029;
+  font-size: 17.3px;
+  background-color: #e9ebf7;
+  white-space: nowrap;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #403c4f;
+}
+
+.company_logo {
+  width: 89.8px;
+  height: 26px;
+}
+
+hr {
+
+  border: 1px solid #e6ebe6;
+
+  width: 100%;
+
+
+}
+
+.nomarginHr {
+  margin: 0px !important
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 65px;
+  height: 25px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.table-responsive {
+  height: 470px;
+  overflow-x: auto;
+}
+
+.spinner-border {
+  margin-top: 0;
+  height: 22px;
+  width: 22px;
+}
+
+.badge-pill {
+  color: white;
+  font-size: .88rem;
+  font-weight: 550;
+  float: right;
+  margin-right: 10px;
+  border-radius: 5px !important;
+}
+
+.primary:hover {
+  color: white;
+}
+
+.btn:hover {
+  color: white;
+}
+
+.primary {
+  background-color: #4e7fcc;
+  color: white;
+}
+
+.primaryDarkColor {
+  background-color: #0d47a1;
+  color: white;
+}
+
+
+
+.white_color_btn {
+  border-radius: 4px;
+  box-shadow: 0 0 4px 0 #00000029;
+  background-color: #ffffff;
+  color: #0d47a1;
+}
+
+.white_color_btn_emp_prof:hover {
+  color: black;
+}
+
+@media screen and (min-width: 769px) {
+  .primaryDarkColor_emp_prof {
+    width: 211px;
+    height: 35px;
+    color: white;
+    background-color: #0d47a1;
+
+  }
+}
+
+
+.white_color_btn_emp_prof {
+  width: 211px;
+  height: 35px;
+  box-shadow: 0 0 4px 0 #00000029;
+  background-color: #ffffff;
+}
+
+
+
+.white_color_btn:hover {
+  color: #0d47a1;
+}
+
+.primary_light {
+  background-color: #e9ebf7;
+
+}
+
+.primary_light:hover {
+  color: black;
+}
+
+.fa-plus {
+  background-color: #4e7fcc;
+  border-radius: 12px;
+  color: white;
+}
+
+.btn.primaryDarkColor {
+  background-color: #0d47a1;
+
+}
+
+.fa-arrow-left {
+  color: #0d47a1;
+
+}
+
+.primaryDarkColor:hover {
+  color: white;
+}
+
+.fa-arrow-left {
+  cursor: pointer;
+}
+
+/* input[type="text"],input[type="date"],input[type="password"],input[type="email"]
+{
+  height: 40px;
+} */
+.ideal_empty_input {
+  width: 100%;
+  outline: 0;
+  border-width: 0 0 1px;
+  font-size: 17.3px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+
+  letter-spacing: normal;
+  text-align: left;
+  border-color: #bbb8b8;
+  background-color: white;
+
+}
+
+input:focus {
+  width: 100%;
+  outline: 0;
+  border-width: 0 0 3px;
+  font-size: 17.3px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+
+  letter-spacing: normal;
+  text-align: left;
+  color: #4d4f5c;
+  border-color: #0d47a1;
+  background-color: white;
+}
+
+
+
+.on_loss_focus_input_style {
+  width: 100%;
+  outline: 0;
+  border-width: 0 0 1px;
+  font-size: 17.3px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+
+  letter-spacing: normal;
+  text-align: left;
+  color: #4d4f5c;
+  border-color: #0d47a1;
+  background-color: white;
+
+}
+
+.input_style_on_disabled {
+  width: 100%;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-style: dotted;
+  font-size: 17.3px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+
+  letter-spacing: normal;
+  text-align: left;
+  color: #4d4f5c;
+  border-color: #ccced1;
+  background-color: white;
+}
+
+
+
+
+
+.inputColorLine {
+  width: 100%;
+  outline: 0;
+  border-width: 0 0 3px;
+  font-size: 17.3px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+
+  letter-spacing: normal;
+  text-align: left;
+  border-color: #ff6565;
+  background-color: white;
+  box-shadow: 0 2px 6px 0 #0000000a;
+}
+
+.inputTextError {
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ff6565;
+}
+
+/* ------------------------------------------  ON Off --------------------------------------------- */
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 22px;
+  width: 25px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked+.slider {
+  background-color: #2196F3;
+}
+
+input:focus+.slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+/* ------------------------------------------------  Label sytyle ------------------------------------ */
+
+
+.ideal_label_on_empty_input {
+
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+
+  letter-spacing: normal;
+  text-align: left;
+  color: #4d4f5c;
+
+
+}
+
+.on_focus_input_label_style {
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0d47a1;
+}
+
+.on_loss_focus_input_label_style {
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #808495;
+}
+
+
+
+
+
+.input_label_on_error {
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fa5252;
+}
+
+.input_label_style_on_disabled {
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #808495;
+}
+
+
+/* ------------------------------------ Fade ------------------------------------- */
+
+.myCollapse .fade:not(.show) {
+  opacity: 0;
+  display: none;
+}
+
+/* ------------------------------------added for Admin UI : Add Comp,Add Emp , Add Payroll ------------------------------------- */
+.blk {
+  float: right;
+  text-align: center;
+  color: white;
+  background-color: #0d47a1;
+}
+
+.testc {
+  float: right;
+}
+
+.indus {
+  justify-content: center;
+  align-items: center;
+}
+
+.comp {
+  justify-content: center;
+  align-items: center;
+}
+
+/* for upload company logo */
+.uploadbox {
+  width: 395px;
+  height: 349px;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.04);
+  background-color: #ffffff;
+
+}
+
+.test {
+  width: 395px;
+  height: 349px;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.04);
+  background-color: #ffffff;
+}
+
+.image {
+  width: 355px;
+  height: 239px;
+  background-color: #f0f2f8;
+
+
+  margin-left: 20px;
+
+  background-color: rgb(192, 192, 192);
+}
+
+.formsubmit {
+  width: 185px;
+  height: 50px;
+  float: right;
+  text-align: center;
+  color: white;
+  background-color: #0d47a1;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+}
+
+.backbt {
+  width: 185px;
+  height: 50px;
+  float: left;
+  text-align: center;
+  color: #403c4f;
+  background-color: #fcfbfe;
+  border-color: none;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+}
+
+.backbt:hover {
+  color: #403c4f;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+}
+
+.empselect:hover {
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.05);
+  color: #403c4f;
+  background-color: #ffffff;
+  border-radius: 4px;
+  border-color: none;
+
+}
+
+.relgSelect {
+  color: #4d4f5c;
+}
+
+#EmpReligion {
+  color: #4d4f5c;
+
+}
+
+
+.addedu {
+  width: 32px;
+  height: 32px;
+  background-color: #818181;
+}
+
+.ideal_emp_input {
+  width: 100%;
+  outline: 0;
+  border-width: 0 0 1px;
+  font-size: 17.3px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+
+  letter-spacing: normal;
+  text-align: left;
+  border-color: #bbb8b8;
+  background-color: white;
+
+}
+
+
+
+.on_focus_EmpInput_style {
+  width: 100%;
+  outline: 0;
+  border-width: 0 0 3px;
+  font-size: 17.3px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+
+  letter-spacing: normal;
+  text-align: left;
+  color: #4d4f5c;
+  border-color: #0d47a1;
+  background-color: white;
+
+}
+
+.on_loss_focus_EmpInput_style {
+  width: 100%;
+  outline: 0;
+  border-width: 0 0 1px;
+  font-size: 17.3px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+
+  letter-spacing: normal;
+  text-align: left;
+  color: #4d4f5c;
+  border-color: #0d47a1;
+  background-color: white;
+
+}
+
+
+.add_btn:hover {
+  border-radius: 4px;
+
+  background-color: #ffffff;
+  color: #0d47a1;
+}
+
+.drp-dn_text {
+  width: 63px;
+  height: 17px;
+  font-family: SourceSansPro;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.54;
+  letter-spacing: normal;
+  text-align: left;
+  color: #4d4f5c;
+}
+
+.admin_form {
+  background-color: #ffffff;
+  box-shadow: 0 3px 6px 0 #00000029 !important;
+  padding-top: 10px;
+
+}
+
+.addpayroll_label {
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #808495;
+  white-space: nowrap;
+}
+
+.monthdropdn {
+  width: 165px;
+  height: 38px;
+  border-radius: 4px;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.05);
+  text-align: center;
+  color: white;
+  background-color: #0d47a1;
+
+}
+
+.payadmin_form {
+  background-color: #ffffff;
+  box-shadow: 0 3px 6px 0 #00000029 !important;
+  padding-top: 1px;
+  padding-bottom: 10px;
+
+}
+
+/* for upload company logo inset */
+.fileip {
+  width: 356px;
+  height: 50px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  border: solid 1px #43425d;
+
+  align-self: center;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+input.classList.remove {
+  background-color: #2196F3;
+}
+
+.custom-file-upload {
+  width: 356px;
+  height: 50px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  border: solid 1px #43425d;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  text-justify: auto;
+  padding-top: 10px;
+
+}
+
+.uploadImage {
+  width: 216px;
+  height: 349px;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.04);
+  background-color: #ffffff;
+}
+
+.uploadDummyImageinset {
+  width: 178px;
+  height: 239px;
+  background-color: #f0f2f8;
+
+}
+
+.uploadDummyImage {
+  width: 216px;
+  height: 349px;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.04);
+  background-color: #f5f5f5;
+}
+
+.custom-file-uploadImage {
+  width: 180px;
+  height: 50px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  border: solid 1px #43425d;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  text-justify: auto;
+  padding-top: 10px;
+}
+
+
+/*for currency drop-down in Add employee */
+.currency-dropdn {
+  width: 37px;
+  height: 25px;
+  border: solid 1px #707070;
+  background-color: #ffffff;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.72;
+  letter-spacing: normal;
+  text-align: left;
+  color: #4d4f5c;
+}
+
+
+/*
+input::-webkit-calendar-picker-indicator {
+  color: white;
+  opacity: 1;
+}
+*/
+
+/*for custom input type */
+.ideal_test_input {
+  width: 1000%;
+  outline: 0;
+  border-width: 0 0 1px;
+  font-size: 17.3px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+
+  letter-spacing: normal;
+  text-align: left;
+  border-color: #bbb8b8;
+  background-color: white;
+  margin-top: 15px;
+}
+
+
+
+.on_focus_testInput_style {
+  width: 100%;
+  outline: 0;
+  border-width: 0 0 3px;
+  font-size: 17.3px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+
+  letter-spacing: normal;
+  text-align: left;
+  color: #4d4f5c;
+  border-color: #0d47a1;
+  background-color: white;
+  margin-top: 15px;
+}
+
+.on_loss_focus_testInput_style {
+  width: 100%;
+  outline: 0;
+  border-width: 0 0 1px;
+  font-size: 17.3px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+
+  letter-spacing: normal;
+  text-align: left;
+  color: #4d4f5c;
+  border-color: #0d47a1;
+  background-color: white;
+  margin-top: 15px;
+}
+
+
+/*for subheadings */
+.emphead {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.28;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+/*for label on left or right side of form */
+.sidelabel {
+
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.72;
+  letter-spacing: normal;
+  text-align: left;
+  color: #4d4f5c;
+  white-space: nowrap;
+}
+
+.sidelabel_on_error {
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.72;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fa5252;
+}
+
+.xlconv {
+  background-color: #0d47a1;
+  color: white;
+}

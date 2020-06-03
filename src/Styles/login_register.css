@@ -1,0 +1,15 @@
+.loginHeader {
+    width: 181.2px;
+    height: 52.1px;
+    object-fit: contain;
+  }
+  .welcome_back_login{
+
+      opacity: 0.5;
+      font-family: SourceSansPro;
+      color: #4d4f5c;
+  }
+  .loginSideImg{
+      height: 110%;
+      width: 100%;
+  }

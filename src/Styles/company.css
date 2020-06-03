@@ -1,0 +1,66 @@
+.companyImage{
+    width: 35%;
+    height: 60%;
+    margin-top: 30px;
+}
+.companyContainer{
+    
+    height: 550px;
+    overflow-x: auto;
+}
+.companyName{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+a{
+    font-size: 14px;
+    
+}
+.phoneNo span{
+    font-size: 14px;
+    color:grey;
+    font-weight: 600;
+    
+}
+.dash_Prof_button{
+    margin-bottom: 8px;
+    margin-right: 5px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    box-shadow: 0 3px 6px 0 #00000029;
+}
+.dash_Prof_button:hover{
+    color: black;
+}
+
+  .cross{
+     align-self: flex-end;
+  }
+  .settingDepartment,.settingDesignation{
+    
+    box-shadow: 0 0 6px 0 #00000029;
+    background-color: #ffffff;
+    
+  }
+  .test{
+    height: 520px;
+    overflow-x: hidden;
+  }
+  
+
+@media screen and (min-width: 769px) {
+  .settingDepartment,.settingDesignation{
+      max-width: 47%;
+     
+}
+.settingDepartment{
+    margin-left: 25px;
+    margin-right: 30px;
+}
+  }
+  .desig_header,.dept_header{
+    color: #0d47a1;
+    margin: 8px;
+}
